@@ -106,3 +106,34 @@
     background: #eef1f5;
   }
   
+  /* ABOUT page enhancements */
+.overview {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+}
+.card.dark {
+  background: #000;
+  color: #fff;
+  border-color: #333;
+}
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+.deliverables li {
+  margin-bottom: 1rem;
+}
+.sprints dt {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.sprints dd {
+  margin: 0 0 0.75rem 1rem;
+}
